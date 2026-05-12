@@ -471,3 +471,31 @@ a:hover {
     margin-top: 23px;
     padding: 8px;
 }
+
+.contato {
+    background-color: rgba(247, 166, 204, 0.271);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(247, 166, 204, 0.271);
+    border-radius: 15px;
+    margin-left: 550px;
+    margin-top: 48px;
+    width: 250px;
+    height: 70px;  
+    transition: 0.9s; 
+}
+
+.contato:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: rgba(247, 166, 204, 0.555);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(247, 166, 204, 0.555);
+}
+
+.contato .contato1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
